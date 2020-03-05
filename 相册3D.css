@@ -4,6 +4,8 @@ body {
   background-color: #c2e3e2;
   position: relative;
   height: 100%;
+  background-image: url("./picture/10.jpg");
+  background-size: contain;
 }
 html section,
 body section {
@@ -15,6 +17,7 @@ body section {
   transform-style: preserve-3d;
   transform: rotatex(0deg) rotatey(0deg);
   perspective: 1000px;
+  perspective-origin: 25% 70%;
 }
 html section div,
 body section div {
@@ -24,7 +27,7 @@ body section div {
   right: 0;
   top: 0;
   bottom: 0;
-  border: 2px solid aqua;
+  border: 1px solid aqua;
   position: absolute;
   margin: auto;
 }
